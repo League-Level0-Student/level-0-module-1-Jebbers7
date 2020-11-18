@@ -12,7 +12,19 @@ public static void main(String[] args) {
 		// 2. Ask the user to enter a name. Store their answer in a variable.
 
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
-
+String Ben = "Funny";
+String Gabe = "Nice";
+String Scarlett = "Friendly";
+String Answer=JOptionPane.showInputDialog("Enter a name.");
+if (Answer.equals("Ben")) {
+JOptionPane.showMessageDialog(null, "That person is " + Ben);
 	}
+else if(Answer.equals("Gabe")) {
+JOptionPane.showMessageDialog(null,"That person is " + Gabe);
 }
+else if(Answer.equals("Scarlett")) {
+	JOptionPane.showMessageDialog(null, "That person is " + Scarlett);
+}
+
+}}
 

@@ -1,1 +1,12 @@
 size(600,600);
+fill(0,0,255,100);
+ellipse(50,50,50,50);
+fill(255,0,0,100);
+ellipse(100,50,50,50);
+fill(0,255,0,100);
+ellipse(75,75,50,50);
+fill(#031A02);
+textSize(12);
+text("Athletic",25,50);
+text("Easygoing",75,50);
+text("Funny",60,75);
